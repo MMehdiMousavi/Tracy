@@ -1,2 +1,2 @@
 # Raytracer
-A textbook C++ Raytracer 
+A textbook C++ Raytracer (work in progress)
