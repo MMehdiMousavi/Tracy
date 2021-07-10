@@ -38,3 +38,4 @@
 /cmake-build-debug/CMakeFiles/TargetDirectories.txt
 /.idea/vcs.xml
 cmake-build-debug/CMakeFiles/Raytracer.dir/depend.internal
+.vscode/launch.json
