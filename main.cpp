@@ -14,7 +14,7 @@ int main() {
 
     // Image
     const auto aspect_ratio = 16.0 / 9.0;
-    const int image_width = 400;
+    const int image_width = 1920;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
 
     // Camera
@@ -30,7 +30,7 @@ int main() {
 
     // Render
 
-    //std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
+    std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
 
     for (int j = image_height-1; j >= 0; --j) {
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
