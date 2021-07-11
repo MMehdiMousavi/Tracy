@@ -1,9 +1,9 @@
 //
 // Created by Mehdi on 7/4/2021.
 //
-
-#ifndef RAYTRACER_VEC3_H
-#define RAYTRACER_VEC3_H
+#pragma once
+#ifndef VEC3_H
+#define EC3_H
 
 #include <cmath>
 #include <iostream>
@@ -55,16 +55,13 @@ public:
 using point3 = vec3;   // 3D point
 using color = vec3;    // RGB color
 
-#endif //RAYTRACER_VEC3_H
-
-
 // vec3 Utility Functions
 
 inline std::ostream& operator<<(std::ostream &out, const vec3 &v) {
     return out << v.e[0] << ' ' << v.e[1] << ' ' << v.e[2];
 }
 
-inline vec3 operator+(const vec3 &u, const vec3 &v) {
+inline vec3 operator + (const vec3 &u, const vec3 &v) {
     return vec3(u.e[0] + v.e[0], u.e[1] + v.e[1], u.e[2] + v.e[2]);
 }
 
@@ -103,3 +100,6 @@ inline vec3 cross(const vec3 &u, const vec3 &v) {
 inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
+
+#endif //RAYTRACER_VEC3_H
+

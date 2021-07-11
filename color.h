@@ -1,7 +1,7 @@
 //
 // Created by Mehdi on 7/4/2021.
 //
-
+#pragma once
 #ifndef RAYTRACER_COLOR_H
 #define RAYTRACER_COLOR_H
 #include "vec3.h"

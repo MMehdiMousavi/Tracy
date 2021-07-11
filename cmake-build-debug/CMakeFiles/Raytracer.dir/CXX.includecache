@@ -13,14 +13,14 @@ iostream
 -
 
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/main.cpp
-iostream
--
-ray.h
-C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/ray.h
 color.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/color.h
+ray.h
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/ray.h
 vec3.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/vec3.h
+iostream
+-
 
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/ray.h
 vec3.h
