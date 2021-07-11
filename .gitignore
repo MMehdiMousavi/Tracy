@@ -39,3 +39,4 @@
 /.idea/vcs.xml
 cmake-build-debug/CMakeFiles/Raytracer.dir/depend.internal
 .vscode/launch.json
+cmake-build-debug/image2.ppm
