@@ -3,13 +3,16 @@
 #include "vec3.h"
 
 #include <iostream>
+/*
+ * its the regular circle intersection code, but simplified thusly (we assume B has a 2 factor)
+ * -b+sqrt(b^2-4ac)/2a = -(2h)+sqrt((2h)^2-4ac) = -h+sqrt((h^2) -ac) */
 
 double hit_sphere(const point3& center, double radius, const ray& r) {
     vec3 oc = r.origin() - center;
-    auto a = dot(r.direction(), r.direction());
-    auto b = 2.0 * dot(oc, r.direction());
-    auto c = dot(oc,oc) - radius*radius;
-    auto discriminant = b*b - 4*a*c;
+    auto a = r.direction().length_squared();
+    auto half_b = dot(oc, r.direction());
+    auto c = oc.length_squared() - radius*radius;
+    auto discriminant = half_b*half_b - a*c;
 
     if (discriminant < 0) {
         return -1.0;
