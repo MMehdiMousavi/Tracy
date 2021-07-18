@@ -1,4 +1,4 @@
-/.idea/.gitignore
+/.idea/
 /cmake-build-debug/CMakeFiles/Raytracer.dir/build.make
 /cmake-build-debug/CMakeFiles/clion-environment.txt
 /cmake-build-debug/CMakeFiles/clion-log.txt
