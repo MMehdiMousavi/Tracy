@@ -2,8 +2,7 @@
 // Created by Mehdi on 7/4/2021.
 //
 #pragma once
-#ifndef VEC3_H
-#define EC3_H
+
 
 #include <cmath>
 #include <iostream>
@@ -117,5 +116,5 @@ inline vec3 unit_vector(vec3 v) {
     return v / v.length();
 }
 
-#endif //RAYTRACER_VEC3_H
+
 

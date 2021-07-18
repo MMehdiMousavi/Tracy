@@ -5,12 +5,15 @@
 #ifndef RAYTRACER_HITTABLE_H
 #define RAYTRACER_HITTABLE_H
 #include "ray.h"
+#include "utils.h"
+class material;
 
 struct hit_record {
     point3 p;
     vec3 normal;
     double t;
     bool front_face;
+    shared_ptr<material> mat_ptr;
 
     //We set things up so that normals always point “outward” from the surface, or always point against the incident ray.
     inline void set_face_normal(const ray& r, const vec3& outward_normal){
