@@ -19,6 +19,8 @@ iostream
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/hittable.h
 ray.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/ray.h
+utils.h
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/utils.h
 
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/hittable_list.h
 hittable.h
@@ -39,8 +41,14 @@ sphere.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/sphere.h
 camera.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/camera.h
+material.h
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/material.h
 iostream
 -
+
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/material.h
+utils.h
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/utils.h
 
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/ray.h
 vec3.h
