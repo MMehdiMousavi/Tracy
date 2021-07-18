@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/camera.h
+utils.h
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/utils.h
+
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/color.h
 vec3.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/vec3.h
@@ -33,6 +37,8 @@ hittable_list.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/hittable_list.h
 sphere.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/sphere.h
+camera.h
+C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/camera.h
 iostream
 -
 
@@ -52,6 +58,8 @@ cmath
 limits
 -
 memory
+-
+cstdlib
 -
 ray.h
 C:/Users/Mehdi/Desktop/My Git Repos/Raytracer/ray.h
