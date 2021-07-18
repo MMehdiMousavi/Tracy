@@ -19,3 +19,9 @@ latest render:
   <img src="Assets/rt_test.png" alt="drawing" width="600"/>
 </p>
 
+## Next milestones:
+
+ -   Adding lights, triangles, etc.
+ - Add multi-threading or use DirectX/CUDA
+ - Add GUI
+
