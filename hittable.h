@@ -10,7 +10,7 @@ struct hit_record {
     point3 p;
     vec3 normal;
     double t;
-    bOOl front_face;
+    bool front_face;
 
     //We set things up so that normals always point “outward” from the surface, or always point against the incident ray.
     inline void set_face_normal(const ray& r, const vec3& outward_normal){
