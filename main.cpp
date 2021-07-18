@@ -1,9 +1,9 @@
-#include "utils.h"
-#include "color.h"
-#include "hittable_list.h"
-#include "sphere.h"
-#include "camera.h"
-#include "material.h"
+#include "Classes/utils.h"
+#include "Classes/color.h"
+#include "Classes/hittable_list.h"
+#include "Classes/sphere.h"
+#include "Classes/camera.h"
+#include "Classes/material.h"
 
 
 #include <iostream>
