@@ -36,7 +36,7 @@ int main() {
     const auto aspect_ratio = 16.0 / 9.0;
     const int image_width = 640;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
-    const int samples_per_pixel = 50;
+    const int samples_per_pixel = 500;
     const int bounce_lim = 50;
 
     //World
@@ -50,12 +50,12 @@ int main() {
 
     world.add(make_shared<sphere>(point3(0.0, -100.5, -1.0),100.0, material_ground));
     world.add(make_shared<sphere>(point3(0.0,0.0,-1), 0.5, material_center));
-    world.add(make_shared<sphere>(point3(-1.0,0.0,-1), -0.5, material_left));
+    world.add(make_shared<sphere>(point3(-1.0,0.0,-1), 0.5, material_left));
     world.add(make_shared<sphere>(point3(1.0,0.0,-1), 0.5, material_right));
 
     // Camera
 
-    camera cam;
+    camera cam(point3(-2,2,1), point3(0,0,-1), vec3(0,1,0), 50, aspect_ratio);
 
     // Render
 
