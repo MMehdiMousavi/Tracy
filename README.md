@@ -4,7 +4,7 @@ I will remove the wip when the repo is complete.
 
 How to use: 
 
-    set parameters: sanoles per pixel, image width, bounce limit.
+    set parameters: samples per pixel, image width, bounce limit.
     create world: add objects, materials. (some are there already)
     set up camera: position, look at, up vector, FOV, aspect ratio.
     build: main.cpp
