@@ -1,6 +1,5 @@
 # Raytracer
 A textbook C++ Raytracer software 
-I will remove the wip when the repo is complete.
 
 How to use: 
 
