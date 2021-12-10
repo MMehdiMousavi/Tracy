@@ -1,5 +1,5 @@
 # Raytracer
-A textbook C++ Raytracer software 
+A textbook C++ Raytracer code. This is for learning purposes only. 
 
 How to use: 
 
